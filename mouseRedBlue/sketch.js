@@ -1,4 +1,4 @@
-// change background color by moving mouse
+// added version 2 test
 //https://editor.p5js.org/bbdemos/sketches/wVXIRvgN2
 
 function setup() {
@@ -13,5 +13,11 @@ function draw() {
   let bluex = map(mouseX,0,width,0,255);
   let redy = map(mouseY,0,width,0,255);
   background(redy,128,bluex);
+
+  textSize(64);
+  text('VERSION 2', 20, 200);
+
+ 
+
 }
 
